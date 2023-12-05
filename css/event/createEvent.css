@@ -1,0 +1,60 @@
+.row {
+    padding: 20px 10px 20px 0;
+}
+
+.multi_select_box {
+    width: 100%;
+}
+
+.submit-btn {
+    text-align: center;
+}
+
+.mul-select {
+    width: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Style the list (remove margins and bullets, etc) */
+#lstLocation {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Style the list items */
+#lstLocation .itemLocation {
+    border: 1px solid #ddd;
+    margin-top: -1px; /* Prevent double borders */
+    background-color: #f6f6f6;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 12px;
+    color: black;
+    display: block;
+    position: relative;
+}
+
+/* Add a light grey background color on hover */
+#lstLocation .itemLocation:hover {
+    background-color: #eee;
+}
+
+/* Style the close button (span) */
+.close {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    padding: 12px 16px;
+    transform: translate(0%, -50%);
+}
+
+.close:hover {background: #bbb;}
+
+.time{
+
+}

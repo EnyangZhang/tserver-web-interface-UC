@@ -1,0 +1,39 @@
+body {
+    font-family: sans-serif;
+}
+
+img {
+    width: 200px;
+    border-radius: 50%;
+
+}
+
+.profile-img {
+    border: 5px solid #cac5c5;
+}
+
+.edit-btn {
+    float: bottom;
+}
+
+.profile-username {
+    padding: 0px 0px 0px 40px;
+    font-size: 30px;
+}
+
+dt {
+    font-size: 15px;
+}
+
+.content-node {
+    padding: 10px 0px 10px 0px;
+}
+
+.edit-box {
+    text-align: right;
+}
+
+.home-page {
+    font-size: 20px;
+
+}

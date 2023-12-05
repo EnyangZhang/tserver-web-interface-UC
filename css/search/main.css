@@ -1,0 +1,118 @@
+.row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    padding: 10px 10px 10px 10px;
+}
+
+.col-2 {
+    width: 300px;
+    padding: 5px 10px 5px 10px;
+}
+
+.col-btn {
+    width: fit-content;
+    padding: 5px;
+}
+
+.search-input-group {
+    position: relative;
+    box-shadow: 0px 8px 15px 0px rgba(159, 157, 157, 0.15);
+    padding: 16px 20px 16px 20px;
+    background: #fff;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.ui-autocomplete {
+    max-height: 400px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.search-label {
+    font-size: 12px;
+    color: #999;
+    text-transform: uppercase;
+    display: block;
+    font-weight: 700;
+    float: left;
+}
+
+.input-style {
+    box-sizing: inherit;
+    outline: none;
+    margin: 0;
+    border: none;
+    box-shadow: none;
+    width: 100%;
+    font-size: 15px;
+    padding: 10px 0;
+    color: #403f3f;
+    font-family: "Roboto", "Arial", sans-serif;
+}
+
+.btn-search {
+    border: none;
+    line-height: 95px;
+    font-family: inherit;
+    background: #f8c061;
+    border-radius: 10px;
+    text-transform: capitalize;
+    color: #333;
+    font-size: 18px;
+    /*transition: all 0.4s ease;*/
+    padding: 0 30px;
+    box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.15);
+}
+
+button {
+    outline: none;
+    cursor: pointer;
+}
+
+select {
+    border: none;
+    outline: none;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    clear: both;
+}
+
+.result-table {
+    background-color: floralwhite;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+
+.col-title {
+    text-align: center;
+    padding: 30px;
+}
+
+.td-content, .col-title {
+    border: 3px solid #888;
+}
+
+.table-row:nth-child(even) {
+    background-color: #ddddddb3;
+}
+
+.paginate-info-section {
+    width: 100%;
+    float: right;
+    padding: 0px 20px 20px 20px;
+}
+
+.disabled {
+    pointer-events: none;
+    cursor: default;
+}
